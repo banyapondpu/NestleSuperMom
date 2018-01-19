@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class module_avatar : MonoBehaviour {
 	public string get_fullname, get_weight, get_height, get_ages, get_body, get_gender, get_code, filePath;
 	public GameObject fm_pic, m_pic, m_hair, fm_hair;
-	public Text fullname;
+	public Text fullname, value_weight, value_height, value_body, value_ages;
 	Texture2D myTexture;
 	
 	void Start () {
@@ -32,6 +32,10 @@ public class module_avatar : MonoBehaviour {
 			 rawImage.GetComponent<RawImage> ().texture = myTexture;
 	    }
 	    fullname.GetComponent<Text>().text = ""+get_fullname;
+	    value_weight.GetComponent<Text>().text = ""+get_weight;
+	    value_height.GetComponent<Text>().text = ""+get_height;
+	    value_body.GetComponent<Text>().text = ""+get_body;
+		value_ages.GetComponent<Text>().text = ""+get_ages;
 	}
 	
 	void Update () {
@@ -47,4 +51,15 @@ public class module_avatar : MonoBehaviour {
 			m_hair.SetActive(true);
 		}
 	}
+
+	public void PlayQuest(){
+		StartCoroutine(LoadGameScene());
+	}
+	IEnumerator LoadGameScene() {
+        yield return new WaitForSeconds(1);
+        AsyncOperation async = SceneManager.LoadSceneAsync(4);
+        while (!async.isDone) {
+            yield return null;
+        }
+    }
 }

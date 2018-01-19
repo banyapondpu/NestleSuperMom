@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Avatar.unity
     guid: 8f100dd6ea0f94a9e979dc61d6edc607
+  - enabled: 1
+    path: Assets/Scene/Question.unity
+    guid: cf2139d432cc2447ebd26938cdcd1485
