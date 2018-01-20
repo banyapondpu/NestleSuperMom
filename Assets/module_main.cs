@@ -8,6 +8,8 @@ public class module_main : MonoBehaviour {
 	public InputField input_fullname, input_weight, input_height, input_ages, input_body;
 	private TouchScreenKeyboard keyboard;
 
+	
+
 	public void openKeyboard(){
 		keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
 	}

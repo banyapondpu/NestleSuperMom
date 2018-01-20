@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Avatar.unity
+- path: Assets/Scene/AugmentedReality.unity
   isLoaded: 1
   isActive: 1

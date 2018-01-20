@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Question.unity
     guid: cf2139d432cc2447ebd26938cdcd1485
+  - enabled: 1
+    path: Assets/Scene/AugmentedReality.unity
+    guid: bd3c568a3b12e4f55a555a05513da5fd

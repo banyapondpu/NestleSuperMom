@@ -51,14 +51,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\delayDestroy.cs" />
+     <Compile Include="Assets\DetectCamera.cs" />
+     <Compile Include="Assets\DynamicPrefabs.cs" />
+     <Compile Include="Assets\Floating.cs" />
      <Compile Include="Assets\HiResScreenShots.cs" />
      <Compile Include="Assets\module_avatar.cs" />
      <Compile Include="Assets\module_gender.cs" />
      <Compile Include="Assets\module_main.cs" />
      <Compile Include="Assets\module_photo.cs" />
      <Compile Include="Assets\module_question.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\SuperMom.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/daydev/Documents/GT359/NestleSuperMom/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/daydev/Documents/NestleSuperMom/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
